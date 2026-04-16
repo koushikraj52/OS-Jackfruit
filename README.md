@@ -1,5 +1,6 @@
 # OS Jackfruit – Lightweight Container Runtime
 
+<<<<<<< HEAD
 ## Team Members
 
 * A Vinay – PES1UG24CS647
@@ -33,11 +34,41 @@ This project provides a simplified understanding of how container systems like D
 * Independent execution of container processes
 * Soft memory limit monitoring (warning messages)
 * Hard memory limit enforcement (process termination)
+=======
+##  Team Members
+
+* **Your Name**
+* **Teammate Name**
+
+---
+
+##  Project Overview
+
+OS Jackfruit is a lightweight container runtime implemented in C.
+It demonstrates core operating system concepts such as:
+
+* Process isolation
+* Memory monitoring
+* Resource control using kernel modules
+* Multi-container supervision
+
+The project consists of a **user-space runtime (`engine.c`)** and a **kernel module (`monitor.c`)** that enforces memory limits.
+
+---
+
+##  Features
+
+* Start and manage multiple containers
+* Track container processes
+* Soft memory limit monitoring (logs warning)
+* Hard memory limit enforcement (kills process)
+>>>>>>> c68a9b6 (Updated README file)
 * CLI interface for container operations
 * Kernel-level memory tracking using RSS
 
 ---
 
+<<<<<<< HEAD
 ## Technologies Used
 
 * C Programming
@@ -48,6 +79,18 @@ This project provides a simplified understanding of how container systems like D
 ---
 
 ## Project Structure
+=======
+##  Technologies Used
+
+* C Programming
+* Linux Kernel Modules
+* System Calls (`ioctl`, `fork`, `exec`)
+* Ubuntu (Virtual Machine)
+
+---
+
+##  Project Structure
+>>>>>>> c68a9b6 (Updated README file)
 
 ```
 OS-Jackfruit/
@@ -61,6 +104,7 @@ OS-Jackfruit/
 │   ├── Makefile
 │
 ├── screenshots/
+<<<<<<< HEAD
 │   ├── Image1.png
 │   ├── Image2.png
 │   ├── Image3.png
@@ -69,12 +113,18 @@ OS-Jackfruit/
 │   ├── Image7.png
 │   ├── Image8.png
 │
+=======
+>>>>>>> c68a9b6 (Updated README file)
 ├── README.md
 ```
 
 ---
 
+<<<<<<< HEAD
 ## Modifications Done
+=======
+##  Modifications Done
+>>>>>>> c68a9b6 (Updated README file)
 
 ### engine.c
 
@@ -96,7 +146,11 @@ OS-Jackfruit/
 
 ---
 
+<<<<<<< HEAD
 ## How to Run
+=======
+##  How to Run
+>>>>>>> c68a9b6 (Updated README file)
 
 ### 1. Compile
 
@@ -131,6 +185,7 @@ dmesg | tail
 
 ---
 
+<<<<<<< HEAD
 ## Demonstrations
 
 ### 1. Multi-container Execution
@@ -232,11 +287,47 @@ CPU time is distributed based on priority using nice values.
 * Memory limits are enforced correctly
 * CPU scheduling behavior matches expectations
 * System remains stable with multiple containers
+=======
+##  Demonstrations
+
+### 1. Multi-container Execution
+
+![Step1](screenshots/step1.png)
+
+### 2. Container Listing
+
+![Step2](screenshots/step2.png)
+
+### 3. Logging System
+
+![Step3](screenshots/step3.png)
+
+### 4. CLI Usage
+
+![Step4](screenshots/step4.png)
+
+### 5. Soft Limit Trigger
+
+![Step5](screenshots/step5.png)
+
+### 6. Hard Limit Enforcement
+
+![Step6](screenshots/step6.png)
+
+### 7. CPU Scheduling / Load
+
+![Step7](screenshots/step7.png)
+
+### 8. Cleanup / Teardown
+
+![Step8](screenshots/step8.png)
+>>>>>>> c68a9b6 (Updated README file)
 
 ---
 
 ## Conclusion
 
+<<<<<<< HEAD
 OS Jackfruit demonstrates how a container runtime works by combining user-space control with kernel-level monitoring. It helps in understanding process isolation, memory management, and scheduling in operating systems.
 
 ---
@@ -246,5 +337,15 @@ OS Jackfruit demonstrates how a container runtime works by combining user-space 
 * Root filesystem is not included in the repository
 * Tested on Ubuntu VirtualBox environment
 * Requires kernel module support
+=======
+This project demonstrates how container runtimes work internally by combining user-space control with kernel-level monitoring. It provides a simplified understanding of Docker-like systems.
+
+---
+
+## 📎 Notes
+
+* Root filesystem and large files are excluded from repository
+* Tested on Ubuntu VirtualBox environment
+>>>>>>> c68a9b6 (Updated README file)
 
 ---
