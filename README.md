@@ -37,8 +37,8 @@ This project provides a simplified understanding of how container systems like D
 =======
 ##  Team Members
 
-* **Your Name**
-* **Teammate Name**
+* **A Vinay-PES1UG24CS647**
+* **B KOUSHIK RAJ-PESIUG24CS657**
 
 ---
 
